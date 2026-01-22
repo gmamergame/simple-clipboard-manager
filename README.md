@@ -1,13 +1,13 @@
 # Mini Clipboard Manager (Windows)
 
-Simple clipboard manager that keeps the **last 10 copied text items** and lets you select one to **paste** via a tiny GUI.
+Simple clipboard manager that keeps the **last 10 copied text items**(you can change this in the python file) and lets you select one to **paste** via a tiny GUI.
 
 ## Features
 
 - Stores last 10 clipboard text entries (dedupes by moving repeats to the top)
 - GUI list with filter box
 - Double-click / Enter to paste selected item
-- **Global hotkey**: `Ctrl+Shift+V` toggles show/hide
+- **Global hotkey**: `Ctrl+Shift+V` toggles show/hide (currently broken)
 
 ## Install
 
@@ -32,3 +32,5 @@ python clipboard_manager.py
 - Some apps may block simulated keypresses (try running the app as admin if needed).
 - If you see an error about `tkinter`, this project uses **PySide6 (Qt)** instead (no Tkinter needed).
 
+i will add an .exe for easy access in the **realeases** section
+i am currently a student so i will not be able to work on this very much
