@@ -9,6 +9,8 @@ Simple clipboard manager that keeps the **last 10 copied text items** and lets y
 - Double-click / Enter to paste selected item
 - **Global hotkey**: `Ctrl+Shift+V` toggles show/hide (currently broken)
 
+note: **python 3.7.9 is reccomended for this program if running from file**
+
 ## Install
 
 From PowerShell in this folder:
@@ -35,5 +37,6 @@ python clipboard_manager.py
 i will add an .exe for easy access in the **realeases** section
 
 i am currently a student so i will not be able to work on this very much
+
 
 
