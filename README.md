@@ -1,2 +1,34 @@
-# simple-clipboard-manager
-this is a simple clipboard manager which is able to run from a single .exe without installation
+# Mini Clipboard Manager (Windows)
+
+Simple clipboard manager that keeps the **last 10 copied text items** and lets you select one to **paste** via a tiny GUI.
+
+## Features
+
+- Stores last 10 clipboard text entries (dedupes by moving repeats to the top)
+- GUI list with filter box
+- Double-click / Enter to paste selected item
+- **Global hotkey**: `Ctrl+Shift+V` toggles show/hide
+
+## Install
+
+From PowerShell in this folder:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+## Run
+
+```powershell
+python clipboard_manager.py
+```
+
+## Notes / limitations
+
+- Designed for **text** clipboard content.
+- “Paste” is implemented by copying the selected item to the clipboard and sending `Ctrl+V`.
+- Some apps may block simulated keypresses (try running the app as admin if needed).
+- If you see an error about `tkinter`, this project uses **PySide6 (Qt)** instead (no Tkinter needed).
+
