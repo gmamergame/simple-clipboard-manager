@@ -33,5 +33,7 @@ python clipboard_manager.py
 - If you see an error about `tkinter`, this project uses **PySide6 (Qt)** instead (no Tkinter needed).
 
 i will add an .exe for easy access in the **realeases** section
+
 i am currently a student so i will not be able to work on this very much
+
 
